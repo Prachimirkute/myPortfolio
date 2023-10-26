@@ -1,0 +1,52 @@
+
+.About img{
+height: auto;
+width: 270px;
+}
+.About-text{
+    width: 450px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.About-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.About-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    /* text-transform: capitalize; */
+    margin-bottom: 15px;
+}
+button{
+    background-color: blue;
+    padding: 0 20px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+}

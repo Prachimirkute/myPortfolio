@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+.tag{
+    background-color: blue;
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+}
+.button{
+    background-color: blue;
+    padding: 0 20px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.button:hover{
+    background-color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.linkedin{
+    color: blue;
+}
+.About{
+    width: 100%;
+    background-color: #E0F7FA;
+}
