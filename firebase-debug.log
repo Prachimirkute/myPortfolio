@@ -1,0 +1,25 @@
+[debug] [2023-10-31T10:08:56.153Z] ----------------------------------------------------------------------
+[debug] [2023-10-31T10:08:56.158Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-31T10:08:56.158Z] CLI Version:   12.7.0
+[debug] [2023-10-31T10:08:56.159Z] Platform:      win32
+[debug] [2023-10-31T10:08:56.159Z] Node Version:  v18.14.1
+[debug] [2023-10-31T10:08:56.162Z] Time:          Tue Oct 31 2023 10:08:56 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-10-31T10:08:56.162Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-31T10:08:56.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-31T10:08:56.376Z] > authorizing via signed-in user (teenapatil64@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LENOVO\Desktop\Prachi_angular\portfolionew
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
