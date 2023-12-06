@@ -9,6 +9,7 @@ export class Tag{
     static readonly WORDPRESS = new Tag('Wordpress' , 'blue');
     static readonly NODEJS = new Tag('NodeJs' , 'red');
     static readonly EXPRESSJS = new Tag('ExpressJS' , 'Orange');
+    static readonly PHP = new Tag('PHP' , '#e91e63');
     
 private constructor(private readonly key : string, public readonly color: string){
 
