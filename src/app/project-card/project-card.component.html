@@ -1,5 +1,12 @@
 <div class="card shadow text-center" style="min-width: 350px; max-width: 350px;background-color: #00bcd41f;">
     <div class="card-body">
+        <carousel style="margin:10px">
+            <div *ngFor="let picture of project.picture">
+                <slide>
+                    <img src={{picture}} alt="first slide" style="display: block; width: 100%;">
+                </slide>
+            </div>
+        </carousel>
         <h5 class="card-title">{{project.name}}</h5>
         <p class="card-text">{{project.summary}}</p>
         <button class="btn btn-link" (click)="openProjectModel()">View More</button>

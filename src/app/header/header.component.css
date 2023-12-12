@@ -2,3 +2,15 @@
     background-color: #0288d166;
     padding: 1rem 0rem;
 }
+.animatedImage {
+    animation: bounceAnimation 2s infinite; /* Animation name, duration, and iteration count */
+  }
+  
+  @keyframes bounceAnimation {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); /* Bounce at the top and bottom */
+    }
+    40% {
+      transform: translateY(-30px); /* Bounce higher in the middle */
+    }
+  }
